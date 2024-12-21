@@ -32,7 +32,7 @@ Publish the website in the given URL.
     <style>
         body {
             font-family:cursive;
-            background-color:orangered;
+            background-color:rgb(32, 28, 28);
             display:flex;
             justify-content: center;
             align-items: center;
@@ -42,7 +42,7 @@ Publish the website in the given URL.
         }
         .photo-container {
             text-align: center;
-            color:darkred;
+            color:bisque;
             font-size:medium;
         }
 
@@ -50,17 +50,18 @@ Publish the website in the given URL.
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 50px; 
+            gap: 10px; 
         }
 
         .photo-item {
-            width: 250px; 
-            height:250px;
+            width: 350px; 
+            height:500px;
                 }
         footer {
             text-align: center;
-            font-size: 16px;
-            margin-top: 20px; 
+            font-size: 25px;
+            background-color:antiquewhite;
+            margin-top: 250px; 
             color:darkred;
         }
 
@@ -70,24 +71,38 @@ Publish the website in the given URL.
     <div class="photo-container">
         <h1 >GALLERY OF CRICKETERS</h1>
         <div class="photo">
-            <img src="dhoni.jpg" alt="Image 1" class="photo-item">
-            <img src="rishab.jpg" alt="Image 2" class="photo-item">
-            <img src="kl.jpg" alt="Image 3" class="photo-item">
-            <img src="hardhik.jpg" alt="Image 4" class="photo-item">
-            <img src="thivatiya.jpg" alt="Image 5" class="photo-item">
-            <img src="abd.jpg" alt="Image 6" class="photo-item">
-            <img src="virat.jpg" alt="Image 7" class="photo-item">
+            <img src="dhoni.jpg" alt="Image 1" class="photo-item" id="my_image" onmouseover="zoomIn()" onmouseout="zoomOut()">
+            <img src="rishab.jpg" alt="Image 2" class="photo-item" id="image"onmouseover="zoomIn()" onmouseout="zoomOut()">
+            <img src="Suresh-Raina-best-performances-in-T20s.jpg" alt="Image 3" class="photo-item" id="image 1"onmouseover="zoomIn()" onmouseout="zoomOut()">
+            <img src="hardhik.jpg" alt="Image 4" class="photo-item" id="image 2"onmouseover="zoomIn()" onmouseout="zoomOut()">
+            <img src="thivatiya.jpg" alt="Image 5" class="photo-item"id="image 3"onmouseover="zoomIn()" onmouseout="zoomOut()">
+            
         </div>
         <footer>
             Designed and developed by Nikila &copy 2024
         </footer>
     </div>
+    <script> 
+    function zoomIn() { 
+      document.getElementById("my_image").style.width = "600px";
+      document.getElementById("my_image").style.height = "700px";
+
+    } 
+    function zoomOut() { 
+      document.getElementById("my_image").style.width = "350px"; 
+      document.getElementById("my_image").style.height = "500px";
+      
+
+    } 
+    </script>
 </body>
 </html>
+
 
 ```
 
 ## OUTPUT:
-![alt text](<Screenshot (100).png>)
+![alt text](<Screenshot (122).png>)
+![alt text](<Screenshot (123).png>)
 ## RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
