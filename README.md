@@ -72,10 +72,10 @@ Publish the website in the given URL.
         <h1 >GALLERY OF CRICKETERS</h1>
         <div class="photo">
             <img src="dhoni.jpg" alt="Image 1" class="photo-item" id="my_image" onmouseover="zoomIn()" onmouseout="zoomOut()">
-            <img src="rishab.jpg" alt="Image 2" class="photo-item" id="image"onmouseover="zoomIn()" onmouseout="zoomOut()">
-            <img src="Suresh-Raina-best-performances-in-T20s.jpg" alt="Image 3" class="photo-item" id="image 1"onmouseover="zoomIn()" onmouseout="zoomOut()">
-            <img src="hardhik.jpg" alt="Image 4" class="photo-item" id="image 2"onmouseover="zoomIn()" onmouseout="zoomOut()">
-            <img src="thivatiya.jpg" alt="Image 5" class="photo-item"id="image 3"onmouseover="zoomIn()" onmouseout="zoomOut()">
+            <img src="rishab.jpg" alt="Image 2" class="photo-item">
+            <img src="Suresh-Raina-best-performances-in-T20s.jpg" alt="Image 3" class="photo-item">
+            <img src="hardhik.jpg" alt="Image 4" class="photo-item">
+            <img src="thivatiya.jpg" alt="Image 5" class="photo-item">
             
         </div>
         <footer>
@@ -97,6 +97,7 @@ Publish the website in the given URL.
     </script>
 </body>
 </html>
+
 
 
 ```
